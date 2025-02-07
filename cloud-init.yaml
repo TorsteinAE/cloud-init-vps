@@ -7,12 +7,6 @@ users:
     ssh_authorized_keys:
       - YOUR_PUBLIC_SSH_KEY_HERE
 
-# Change password(s)
-chpasswd:
-  expire: false
-  users:
-  - {name: YOUR-USERNAME-HERE, password: YOUR-PASSWORD-HERE, type: text}
-
 packages:
   - fail2ban
   - ufw
